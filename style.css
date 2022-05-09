@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background: rgb(255, 213, 213);
+
+}
+h1 {
+    color: rgb(63, 63, 63);
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+ 
+/** .contenedor {
+    width: 100%;
+    padding: 30px;
+}
+**/
+.formulario {
+    background:rgba(255, 255, 255, 0.958);
+    padding: 3px;
+    text-align: center;
+   background-size: 80px;
+   width: 950px;
+   height: 500px;
+   margin: auto;
+   margin-top: 85px;
+}
+img {
+    margin-top: 15px;
+}
+input[type="email"],
+input[type="password"] {
+    font-size: 20px;
+    width: 30%;
+    padding: 5px;
+    border: 1px solid rgb(255, 160, 160);
+    border-radius: 20px;
+    
+}
+.input-contenedor {
+    margin-bottom: 15px;
+}
+.boton-entrar {
+    border: none;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 198, 198);
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 113px 0px 113px 0px / 82px 0px 73px 0px;
+    cursor: pointer;
+    width: 10%;
+    margin-top: 18px;
+}
+
+.boton-entrar:hover {
+    background: rgb(255, 126, 126);
+}
+
+.boton-password {
+    margin-top: 25px;
+    border: none;
+    background: #fff;
+    color: rgb(37, 37, 37);
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 20px;
+    text-decoration: underline;
+   
+}
+
+.boton-password:hover {
+    color: rgb(255, 126, 126);
+}
